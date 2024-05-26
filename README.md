@@ -25,14 +25,14 @@ Then run the installation:
 
     wget https://raw.github.com/volkszaehler/vzlogger/master/install.sh
     sudo bash install.sh
-    
+
 Docker
 ------
 
 You can also build a docker image:
 
      docker build -t vzlogger .
-     
+
 Note, that this will use the newest vzlogger from volkszaehler github (not your local clone).
 You can start it:
 
@@ -106,3 +106,10 @@ If you have questions, contact the volkszaehler mailing lists:
 
 More information is available in our wiki:
 http://wiki.volkszaehler.org/software/controller/vzlogger
+
+
+<a href="https://scan.coverity.com/projects/vzlogger-tomcat42">
+  <img alt="Coverity Scan Build Status"
+       src="https://scan.coverity.com/projects/30287/badge.svg"/>
+</a>
+
